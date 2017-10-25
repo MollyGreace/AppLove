@@ -119,9 +119,13 @@ section {
   width: 1367px;  
 }
 /*Modifica valores del texto dentro de la sección 01 - Home*/
-.text {
-  color: #ffffff;
+h1 {
+  font-size: -webkit-xxx-large;/*agranda el texto de h1*/
 }
+.text {
+  color: #ffffff;/*coloca color a toda sección*/
+}
+/*coloca la imagen de fondo a la sección 01*/
 .bg-home {
   background-image: url(../assets/images/bg-home.jpg);
   background-repeat: no-repeat;
@@ -131,18 +135,50 @@ section {
   height: 667px;
   width: 1367px;  
 }
-h2 {
+h2 {   
   margin-top: 0;
   right: 0;
+  font: bold;
+  font-size: xx-large;
+  padding: 40px;
 }
-.text-xl {
-  height: 60px;
+
+/*Modifica valores del texto dentro de la sección 02 - Services*/
+text {
+  color: #ffffff;
+}
+.bg-services {
+  background-color: #f17c72 
+}
+.services-img {
+  height: 210px;
 }
 
 
-
-
-
+/*Modifica valores del texto dentro de la sección 03 - Work*/
+/*.resize-section-03 {
+  height: 2313px;
+  width: 667px;
+}*/
+.work-img {
+  height: 1000px;
+}
+table,tr,td {
+  margin: 0% 12%;
+  padding: 10px;
+}
+.img-size {
+  height: 250px;
+  width: 250px;
+}
+td>p {
+  font-weight: bold;
+}
+.text-bold {
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 40px;
+}
 
 /*Este es el footer*/
 footer {
